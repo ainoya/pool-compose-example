@@ -1,4 +1,6 @@
 web:
+  environment:
+    GIT_COMMIT: "<%= @git_commit_id %>"
   build: .
   ports:
    - "5000:5000"
